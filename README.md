@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+#  Aventures Alpines
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Plateforme web dédiée aux amoureux des sports de montagne, réalisée dans le cadre du BTS SIO (Bloc 2 spécialité SLAM).
 
-## Available Scripts
+##  Description
 
-In the project directory, you can run:
+Aventures Alpines est un site web permettant d'explorer et de partager des expériences autour des sports de montagne : randonnée, escalade et ski. Les utilisateurs peuvent consulter des articles, des vidéos, des itinéraires, et réserver des activités.
 
-### `npm start`
+##  Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Page d'accueil avec présentation des activités populaires
+- Pages dédiées : Randonnée, Escalade, Ski
+- Blog avec articles rédigés par des passionnés
+- Système de connexion / inscription utilisateur
+- Espace administrateur pour gérer les activités
+- Formulaire de contact
+- API REST côté serveur (Node.js / Express)
+- Base de données MySQL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Technologies utilisées
 
-### `npm test`
+- **React** (frontend)
+- **Node.js / Express** (backend / API REST)
+- **MySQL** (base de données)
+- **Axios** (requêtes HTTP)
+- **JavaScript**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Structure du projet
+sport-montagne-app/
 
-### `npm run build`
+├── src/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+│   ├── components/   # Composants React (Navbar, Footer, Article...)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+│   ├── pages/        # Pages (Home, Blog, Ski, Escalade, Randonnée...)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+│   └── data/         # Données (articles, vidéos, itinéraires)
 
-### `npm run eject`
+├── server/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+│   └── server.js     # Serveur Express + API
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+└── public/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Auteur
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Kenza Bennani — BTS SIO SLAM — 2026
