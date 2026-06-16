@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+server/db.js
+server.zip
+src.zip
+server/node_modules
